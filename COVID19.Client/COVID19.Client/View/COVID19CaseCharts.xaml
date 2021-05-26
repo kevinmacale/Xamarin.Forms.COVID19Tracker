@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="COVID19.Client.View.COVID19CaseCharts"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:base="clr-namespace:COVID19.Client.View"
+             xmlns:vm="clr-namespace:COVID19.Client.ViewModel"
+             Style="{StaticResource BaseContentPageStyle}"
+             Title="{Binding Title}">
+    <ContentPage.Resources>
+        <vm:COVID19CaseChartsViewModel x:Key="Source"/>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:COVID19CaseChartsViewModel x:Name="COVID19CaseChartsViewModel"/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="9"/>
+            </Grid.RowDefinitions>
+        </Grid>
+    </ContentPage.Content>
+ </base:BaseContentPage>

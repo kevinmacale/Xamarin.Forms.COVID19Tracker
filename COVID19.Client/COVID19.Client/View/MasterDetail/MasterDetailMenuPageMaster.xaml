@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:vm="clr-namespace:COVID19.Client.ViewModel"
+             x:Class="COVID19.Client.View.MasterDetail.MasterDetailMenuPageMaster"
+             Title="{Binding Title}" Style="{StaticResource BaseMasterContentPageStyle}">
+    <ContentPage.Resources>
+        <vm:MasterDetailMenuPageMasterViewModel x:Key="Source"/>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:MasterDetailMenuPageMasterViewModel/>
+    </ContentPage.BindingContext>
+
+    <pancake:PancakeView BackgroundGradientAngle="50" BackgroundGradientStartColor="{StaticResource SteelBlue}" BackgroundGradientEndColor="{StaticResource MainBackgroundColor}">
+        <StackLayout Orientation="Vertical">
+            <pancake:PancakeView CornerRadius="10" HasShadow="True" Padding="10"
+                             HeightRequest="120">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="VirusLogo.png" WidthRequest="100" HeightRequest="100" Margin="10"
+                       HorizontalOptions="Center"/>
+                    <Label Text="COVID-19 Daily Tracker" Style="{StaticResource BaseLabelStyle}" TextColor="White"/>
+                </StackLayout>
+            </pancake:PancakeView>
+            <CollectionView x:Name="MasterDetailCollection" SelectionMode="None" ItemsSource="{Binding MenuItems}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <pancake:PancakeView Margin="5" BorderColor="{StaticResource DeepskyBlue}" BorderThickness="2"
+                                             HeightRequest="50" HasShadow="True"
+                                             BackgroundColor="White"
+                                             CornerRadius="10"> 
+                                <StackLayout VerticalOptions="Center">
+                                    <Button Text="{Binding Title}" FontAttributes="Bold"
+                                            VerticalOptions="Center"
+                                            Command="{Binding Path=MenuSelectionCommand, Source={StaticResource Source}}"
+                                            CommandParameter="{Binding}"
+                                            Style="{StaticResource ButtonStyle}"/>
+                                </StackLayout>
+                            </pancake:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </pancake:PancakeView>
+</ContentPage>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:view="clr-namespace:COVID19.Client.View"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:converter="clr-namespace:COVID19.Client.Converter"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="COVID19.Client.App">
+    <Application.Resources>
+        <converter:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        <Color x:Key="MainBackgroundColor">#072F5F</Color>
+        <Color x:Key="MasterDetailBackgroundColor">#0F4D92</Color>
+        <Color x:Key="DeepskyBlue">#00688B</Color>
+        <Color x:Key="BlueBerry">#75A1D0</Color>
+        <Color x:Key="SlateBlue">#007FFF</Color>
+        <Color x:Key="SteelBlue">#36648B</Color>
+        <Color x:Key="SkyBlue">#3299CC</Color>
+        <Color x:Key="DeepSkyBlue">#00688B</Color>
+
+        <Style x:Key="BaseLabelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource DeepskyBlue}" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="Visual" Value="Material"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="{StaticResource DeepskyBlue}" />
+            <Setter Property="BackgroundColor"  Value="Transparent"/>
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+        <Style x:Key="BaseContentPageStyle" TargetType="{Type view:BaseContentPage}">
+            <Setter Property="BackgroundColor" Value="{StaticResource MainBackgroundColor}"/>
+            <Setter Property="ControlTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <pancake:PancakeView Margin="0,5,0,0"
+                        Padding="30,0,30,30"
+                        BackgroundColor="White"
+                        CornerRadius="40,40,0,0"
+                        VerticalOptions="FillAndExpand">
+                            <Grid BindingContext="{TemplateBinding BindingContext}">
+                                <ContentPresenter VerticalOptions="FillAndExpand"
+                                              IsVisible="{Binding IsProgressing, Converter={StaticResource InverseBooleanConverter}}"/>
+                                <ActivityIndicator HorizontalOptions="CenterAndExpand" VerticalOptions="Center"
+                                               Color="White" IsVisible="{Binding IsProgressing}"
+                                               WidthRequest="100" HeightRequest="100" IsRunning="True"/>
+                            </Grid>
+                        </pancake:PancakeView>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BaseMasterContentPageStyle" TargetType="MasterDetailPage">
+            <Setter Property="BackgroundColor" Value="{StaticResource MasterDetailBackgroundColor}"/>
+        </Style>
+    </Application.Resources>
+</Application>

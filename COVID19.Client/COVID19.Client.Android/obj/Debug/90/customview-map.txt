@@ -1,0 +1,69 @@
+@string/appbar_scrolling_view_behavior;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+alpha;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\enterfromleft.xml
+alpha;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml
+android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
+android.support.v7.widget.RecyclerView;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\shellcontent.xml
+android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
+attr;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+corners;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+external-cache-path;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\bottomtablayout.xml
+item;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+item;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+item;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values-v21\styles.xml
+item;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\values\styles.xml
+item;obj\Debug\90\res\values\styles.xml
+layer-list;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+LinearLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\bottomtablayout.xml
+paths;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\2\jl\res\values\strings.xml
+resources;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+resources;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values-v21\styles.xml
+resources;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\values\styles.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\styles.xml
+scale;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+set;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\enterfromleft.xml
+set;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\enterfromright.xml
+set;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\exittoleft.xml
+set;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\exittoright.xml
+shape;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialactivityindicatorbackground.xml
+shape;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+shape;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable-v24\materialactivityindicatorbackground.xml
+solid;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialactivityindicatorbackground.xml
+solid;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable\materialprogressbar.xml
+solid;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\drawable-v24\materialactivityindicatorbackground.xml
+string;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\2\jl\res\values\strings.xml
+style;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+style;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\values-v21\styles.xml
+style;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\values\styles.xml
+style;obj\Debug\90\res\values\styles.xml
+translate;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\enterfromleft.xml
+translate;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\enterfromright.xml
+translate;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\exittoleft.xml
+translate;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\anim\exittoright.xml
+xamarin.forms.material.android.MaterialFormsEditText;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\layout\textinputlayoutfilledbox.xml
+xamarin.forms.material.android.MaterialFormsTextInputLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\layout\textinputlayoutfilledbox.xml
+xamarin.forms.material.android.MaterialPickerEditText;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\layout\materialpickertextinput.xml
+xamarin.forms.material.android.MaterialPickerTextInputLayout;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\41\jl\res\layout\materialpickertextinput.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Client\COVID19.Client.Android\obj\Debug\90\lp\43\jl\res\layout\rootlayout.xml

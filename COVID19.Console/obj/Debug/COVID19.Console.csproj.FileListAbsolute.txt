@@ -1,0 +1,14 @@
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Console.exe
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Console.pdb
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Server.dll
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Shared.dll
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\Newtonsoft.Json.dll
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Server.pdb
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Server.dll.config
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\COVID19.Shared.pdb
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\bin\Debug\Newtonsoft.Json.xml
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\obj\Debug\COVID19.Console.csprojAssemblyReference.cache
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\obj\Debug\COVID19.Console.csproj.CoreCompileInputs.cache
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\obj\Debug\COVID19.Console.csproj.CopyComplete
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\obj\Debug\COVID19.Console.exe
+D:\_Craftonite\Self Projects\Source\COVID19Tracker\COVID19.Console\obj\Debug\COVID19.Console.pdb

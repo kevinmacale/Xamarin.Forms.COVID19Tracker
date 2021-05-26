@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:base="clr-namespace:COVID19.Client.View"
+             xmlns:vm="clr-namespace:COVID19.Client.ViewModel"
+             x:Class="COVID19.Client.MainPage"
+             Style="{StaticResource BaseContentPageStyle}"
+             Title="{Binding Title}">
+    <ContentPage.Resources>
+        <vm:MainViewModel x:Key="Source"/>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:MainViewModel x:Name="MainViewModel"/>
+    </ContentPage.BindingContext>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" Margin="5"  Orientation="Vertical">
+            <Label Text="COVID-19 Summary" FontSize="Large" FontAttributes="Bold" Style="{StaticResource BaseLabelStyle}"/>
+            <Label Text="{Binding COVIDCaseSummary.TimeStamp}" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold" Style="{StaticResource BaseLabelStyle}"/>
+        </StackLayout>
+        <pancake:PancakeView
+                Grid.Row="1"
+                Padding="10"
+                Margin="5"
+                HasShadow="True"
+                BackgroundColor="{StaticResource DeepSkyBlue}"
+                BorderThickness="1"
+                CornerRadius="15"
+                Elevation="3">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Virus.png" WidthRequest="100" HeightRequest="100" Margin="10"
+                       HorizontalOptions="Center"/>
+                <Label Style="{StaticResource BaseLabelStyle}" TextColor="White" HorizontalTextAlignment="Start">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Cases" FontAttributes="Bold" FontSize="Large"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Total: "/>
+                            <Span Text="{Binding COVIDCaseSummary.Total}" FontAttributes="Italic"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </pancake:PancakeView>
+        <pancake:PancakeView
+                Grid.Row="2"
+                Padding="10"
+                Margin="5"
+                HasShadow="True"
+                BackgroundColor="{StaticResource DeepSkyBlue}"
+                BorderThickness="1"
+                CornerRadius="15"
+                Elevation="3">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="FeverIcon.png" WidthRequest="100" HeightRequest="100" Margin="10"
+                       HorizontalOptions="Center"/>
+                <Label Style="{StaticResource BaseLabelStyle}" TextColor="White" HorizontalTextAlignment="Start">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Closed Cases" FontAttributes="Bold" FontSize="Large"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Total: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ClosedCases.Total}" FontAttributes="Italic"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Recovered: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ClosedCases.Recovered}" FontAttributes="Italic"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Deaths: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ClosedCases.Deaths}" FontAttributes="Italic"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </pancake:PancakeView>
+        <pancake:PancakeView
+                Grid.Row="3"
+                Padding="10"
+                Margin="5"
+                HasShadow="True"
+                BackgroundColor="{StaticResource DeepSkyBlue}"
+                BorderThickness="1"
+                CornerRadius="15"
+                Elevation="3">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Discharge.png" WidthRequest="100" HeightRequest="100" Margin="10"
+                       HorizontalOptions="Center"/>
+                <Label Style="{StaticResource BaseLabelStyle}" TextColor="White" HorizontalTextAlignment="Start">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Active Cases" FontAttributes="Bold" FontSize="Large"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Total: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ActiveCases.Total}" FontAttributes="Italic"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Mild: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ActiveCases.Mild}" FontAttributes="Italic"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="Critical: "/>
+                            <Span Text="{Binding COVIDCaseSummary.ActiveCases.Critical}" FontAttributes="Italic"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </pancake:PancakeView>
+        <ActivityIndicator Grid.Row="0" Grid.RowSpan="4" IsRunning="{Binding IsProgressing}" VerticalOptions="CenterAndExpand" 
+                           Color="{StaticResource DeepSkyBlue}"
+                           HorizontalOptions="CenterAndExpand" HeightRequest="100" WidthRequest="100"/>
+    </Grid>
+</base:BaseContentPage>
